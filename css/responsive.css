@@ -1,0 +1,1242 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .navbar_btn{
+        background: #FF4655;
+        color: #FFFFFF;
+    }
+
+    .nav_menu{
+        background: #FF4655;
+        text-align: center;
+        border-radius: 15px;
+        z-index: 999;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+    }
+
+
+    nav .nav_right{
+        margin-top: 15px;
+    }
+
+    nav .nav_right ul {
+        justify-content: center;
+    }
+
+
+    header #banner {
+        padding-top: 150px;
+        padding-bottom: 40px;
+
+    }
+
+
+    #banner .banner_title h3 {
+        font-size: 20px;
+    }
+
+    #banner .banner_title h1 {
+        font-size: 36px;
+    }
+
+    #banner .banner_title h1::after{
+        display: none;
+    }
+
+    #banner .banner_title p {
+        font-size: 14px;
+        font-weight: 300;
+        width: auto;
+    }
+
+    header #banner button {
+        padding: 6px 10px;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    #banner .bann_social_icon ul li {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+    }
+
+    #banner .bann_social_icon ul li a {
+        font-size: 16px;
+    }
+
+    #about {
+        padding: 34px 0 40px 0;
+    }
+
+    #about .about_title h2 {
+        width: auto;
+        font-size: 30px;
+    }
+
+    #about .about_title h2::after{
+        display: none;
+    }
+
+    #about .aboutImage{
+        width: 100%;
+    }
+
+    #about .about_text h4 {
+        margin-top: 25px;
+    }
+
+    #about .about_text ul li {
+        font-size: 14px;
+    }
+
+    #about .about_text p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    #about .about_text button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #about .count_part {
+        margin-top: 10px;
+    }
+
+    #about .count_part .count_box {
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+
+    #about .count_part .count_box h2 {
+        font-size: 40px;
+    }
+
+    #about .count_part .count_box h2::after {
+        right: 40px;
+        bottom: 5px;
+    }
+
+    #about .count_part .count_box p {
+        font-size: 14px;
+    }
+
+
+    #popular {
+        padding: 30px 0;
+    }
+
+    #popular .popular_title h2 {
+        font-size: 30px;
+        width: auto;
+    }
+
+    #popular .popular_wrapper .popular_left {
+        position: static;
+        margin-top: -100px;
+    }
+
+    #popular .popular_left img{
+        width: 100%;
+    }
+
+    #popular .popular_right img{
+        width: 100%;
+    }
+
+    #popular .button span {
+        font-size: 30px;
+    }
+
+    .carousel-control-prev {
+        bottom: -100px;
+    }
+
+    .carousel-control-next {
+        bottom: -30px;
+    }
+
+
+
+    #tournament {
+        padding: 30px 0;
+    }
+
+    #tournament .tournament_title h2 {
+        width: auto;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    #tournament .tournament_title h2::after {
+        width: 90px;
+        bottom: 5px;
+        right: 160px;
+    }
+
+    #tournament .image {
+        transform: scale(.9);
+        width: 100%;
+    }
+
+    #tournament .match_fixture {
+        margin-top: 20px;
+    }
+
+    #tournament .match_fixture .contest_01 .team_01 {
+        clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+        width: auto;
+        padding: 0 40px;
+        border-radius: 50px;
+    }
+
+
+    #tournament .match_fixture .contest_01 .team_02 {
+        clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+        width: auto;
+        padding: 0 40px;
+        border-radius: 50px;
+    }
+
+    #tournament .match_fixture .contest_02 .team_01 {
+        clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+        width: auto;
+        padding: 0 40px;
+        border-radius: 50px;
+    }
+
+
+    #tournament .match_fixture .contest_02 .team_02 {
+        clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+        width: auto;
+        padding: 0 40px;
+        border-radius: 50px;
+    }
+
+    #tournament .match_fixture .team_01 h3 {
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    
+    #tournament .match_fixture .team_02 h3 {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    #tournament .match_fixture .time h3 {
+        font-size: 30px;
+    }
+
+
+    #top_game {
+        padding: 20px 0;
+    }
+
+
+    #top_game .top_game_tilte h2 {
+        font-size: 30px;
+        letter-spacing: 2.7px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    #top_game .top_game_tilte h2::after {
+        width: 90px;
+        right: 75px;
+    }
+
+    #top_game .top_game_content {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #top_game .item .game_title {
+        text-align: center;
+        margin: 18px 0;
+    }
+
+    #top_game .item .game_title h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    #top_game .item .game_title h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #top_game .item .game_title h5 {
+        font-size: 14px;
+    }
+
+    #top_game .item .game_title h5 span {
+        padding: 2px 4px;
+    }
+
+
+
+    #game_catalog {
+        padding: 20px;
+    }
+
+    #game_catalog .catalog_wrapper {
+        padding: 20px;
+    }
+
+    #game_catalog .catalog_text {
+        text-align: center;
+    }
+
+    #game_catalog .catalog_text h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    #game_catalog .catalog_text p {
+        width: auto;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    #game_catalog .catalog_text button {
+        padding: 10px 16px;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    #game_catalog .catalog_slider img{
+        width: 100%;
+    }
+
+
+
+    #store {
+        padding: 20px 0;
+    }
+
+    #store .store_title h2 {
+        width: auto;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #store .store_title h2::after {
+        width: 90px;
+        bottom: 5px;
+        right: 105px;
+    }
+
+    #store .all_product .product h3 {
+        font-size: 24px;
+    }
+
+
+    #store .all_product .product h4 {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    #store .all_product .product h6 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #store .product img{
+        width: 100%;
+    }
+
+    #store .all_product .product {
+        padding: 10px 15px;
+        gap: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    #store button span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #store .button .next_button {
+        top: 268px;
+    }
+
+    #store .button .prev_button {
+        top: 232px;
+    }
+
+
+    #professional {
+        padding: 20px 0;
+    }
+
+    #professional .professional_title h2 {
+        width: auto;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #professional .professional_title h2::after {
+        width: 90px;
+        bottom: 5px;
+        right: 160px;
+    }
+
+    #professional .professional_content img{
+        width: 100%;
+    }
+
+    #professional .professional_content .item_info {
+        padding: 5px;
+    }
+
+    #professional .item_info h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #professional .item_info .item_hover h3 {
+        font-size: 16px;
+    }
+
+    #professional .item_info p {
+        width: auto;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    #professional .item_info ul {
+        gap: 5px;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #professional .item_info ul li {
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    #professional .item_info button {
+        padding: 0px 5px;
+        font-size: 12px;
+        font-weight: 300;
+        border: none;
+        border-radius: 2px;
+        margin-top: 5px;
+    }
+
+    #faQ {
+        padding: 20px 0 60px 0;
+    }
+
+    #faQ .faQ_title h2 {
+        width: auto;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #faQ .faQ_title h2::after {
+        width: 90px;
+        bottom: 5px;
+        left: 123px;
+    }
+
+    #faQ .faQ_content .item .item_no h2 {
+        font-size: 30px;
+        padding: 0 10px;
+        letter-spacing: 0;
+        margin-right: 10px;
+    }
+
+    #faQ .faQ_content .item_text h4 {
+        font-size: 14px;
+    }
+
+    #faQ .faQ_content .item_text p {
+        width: auto;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    #faQ .faQ_content .no_02 {
+       padding: 0;
+    }
+
+    #faQ .faQ_content hr {
+        margin: 15px 0;
+    }
+
+    #faQ .faQ_content .vertical_line {
+        width: 330px;
+        top: 164px;
+        left: 22px;
+    }
+
+
+
+    #footer {
+        padding-top: 50px;
+    }
+
+    #footer .footer_top {
+        width: 100%;
+        padding: 5px 10px;
+        top: -30px;
+        left: 0;
+    }
+
+    #footer .footer_top .footerTop_title h2 {
+        width: auto;
+        font-size: 16px;
+    }
+
+    #footer .footer_top .subscribe_button input {
+        padding: 4px 20px 5px 10px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    #footer .footer_top .subscribe_button input::placeholder{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    
+    #footer .footer_top .subscribe_button button {
+        padding: 5px 6px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+
+    #footer .left_text p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #footer .left_social_icon ul {
+        gap: 5px;
+        margin-top: 16px;
+        align-items: center;
+    }
+
+    #footer .left_social_icon ul li {
+        width: 20px;
+        height: 20px;
+        line-height: 16px;
+    }
+
+    #footer .left_social_icon ul li a {
+        font-size: 12px;
+    }
+
+    #footer .footer_content {
+        padding-bottom: 0;
+    }
+
+    #footer .footer_content .footer_center  h4 {
+        font-size: 16px;
+    }
+
+    #footer .footer_center  ul li {
+        margin-top: 5px;
+    }
+
+    #footer .footer_center  ul li a {
+        font-size: 12px;
+    }
+
+    #footer .footer_content .footer_right h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #footer .footer_content .footer_right {
+        text-align: center;
+    }
+
+    #footer .footer_bottom {
+        padding-bottom: 10px;
+    }
+
+    #footer .footer_bottom hr {
+        margin-bottom: 10px;
+    }
+
+    #footer .footer_bottom h4 {
+        font-size: 12px;
+    }
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar_btn{
+        background: #FF4655;
+        color: #FFFFFF;
+    }
+
+    .nav_menu {
+        padding: 69px 0;
+        margin: 0 257px;
+        background: #FF4655;
+        position: relative;
+        top: -40px;
+        left: 210px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+    }
+
+
+    nav .nav_right{
+        margin-top: 15px;
+    }
+
+    nav .nav_right ul {
+        justify-content: center;
+    }
+
+
+
+
+    header #banner {
+        padding-top: 150px;
+        padding-bottom: 40px;
+
+    }
+
+
+    #banner .banner_title h3 {
+        font-size: 20px;
+    }
+
+    #banner .banner_title h1 {
+        font-size: 36px;
+    }
+
+    #banner .banner_title h1::after{
+        display: none;
+    }
+
+    #banner .banner_title p {
+        font-size: 14px;
+        font-weight: 300;
+        width: auto;
+    }
+
+    header #banner button {
+        padding: 6px 10px;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    #banner .bann_social_icon ul li {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+    }
+
+    #banner .bann_social_icon ul li a {
+        font-size: 16px;
+    }
+
+
+
+
+
+    #about {
+        padding: 40px 0;
+    }
+
+    #about .ab_wrapper{
+        align-items: center;
+    }
+
+    #about .about_title {
+        margin-bottom: 20px;
+    }
+
+    #about .about_title h2 {
+        width: auto;
+        font-size: 30px;
+    }
+
+    #about .about_title h2::after{
+        display: none;
+    }
+
+    #about .aboutImage{
+        width: 100%;
+    }
+
+    #about .about_text h4 {
+        margin-top: 25px;
+    }
+
+    #about .about_text ul li {
+        font-size: 14px;
+    }
+
+    #about .about_text p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    #about .about_text button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #about .count_part {
+        margin-top: 10px;
+    }
+
+    #about .count_part .count_box {
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    #about .count_part .count_box h2 {
+        font-size: 48px;
+    }
+
+    #about .count_part .count_box h2::after {
+        right: 140px;
+        bottom: 5px;
+    }
+
+    #about .count_part .count_box p {
+        font-size: 18px;
+    }
+
+
+
+
+
+
+    #popular {
+        padding: 30px 0;
+    }
+
+    #popular .popular_title h2 {
+        font-size: 36px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #popular .popular_title h2::after {
+        left: 200px;
+    }
+
+    #popular .popular_wrapper .popular_left {
+        position: static;
+        margin-top: -120px;
+    }
+
+    #popular .popular_left img{
+        width: 100%;
+    }
+
+    #popular .popular_right img{
+        width: 100%;
+    }
+
+    #popular .button span {
+        font-size: 30px;
+    }
+
+    .carousel-control-prev {
+        bottom: -100px;
+    }
+
+    .carousel-control-next {
+        bottom: -30px;
+    }
+
+
+
+
+
+
+    #tournament {
+        padding: 30px 0;
+    }
+
+    #tournament .tournament_title h2 {
+        width: auto;
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    #tournament .tournament_title h2::after {
+        width: 90px;
+        bottom: 5px;
+        right: 120px;
+    }
+
+    #tournament .image {
+        transform: scale(.9);
+        width: 100%;
+    }
+
+    #tournament .match_fixture {
+        margin-top: 20px;
+    }
+
+    #tournament .fixture_title h4 {
+        font-size: 30px;
+    }
+
+    #tournament .contest_01 {
+        margin-top: 25px;
+    }
+
+    #tournament .match_fixture .contest_01 .team_01 {
+        clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
+        width: auto;
+        padding: 10px 0 10px 40px;
+    }
+
+
+    #tournament .match_fixture .contest_01 .team_02 {
+        clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+        width: auto;
+        padding: 10px 40px 10px 0;
+    }
+
+    #tournament .match_fixture .contest_02 .team_01 {
+        clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
+        width: auto;
+        padding: 10px 0 10px 40px;
+    }
+
+
+    #tournament .match_fixture .contest_02 .team_02 {
+        clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+        width: auto;
+        padding: 10px 40px 10px 0;
+    }
+
+    #tournament .match_fixture .team_01 h3 {
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    
+    #tournament .match_fixture .team_02 h3 {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    #tournament .match_fixture .time h3 {
+        font-size: 30px;
+    }
+
+
+
+
+
+
+    #top_game {
+        padding: 20px 0;
+    }
+
+
+    #top_game .top_game_tilte h2 {
+        font-size: 36px;
+        letter-spacing: 2.7px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    #top_game .top_game_tilte h2::after {
+        width: 90px;
+        left: 175px;
+    }
+
+    #top_game .top_game_content {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #top_game .item .game_title {
+        text-align: center;
+        margin: 18px 0;
+    }
+
+    #top_game .item .game_title h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    #top_game .item .game_title h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #top_game .item .game_title h5 {
+        font-size: 14px;
+    }
+
+    #top_game .item .game_title h5 span {
+        padding: 2px 4px;
+    }
+
+
+
+
+
+    #game_catalog {
+        padding: 20px;
+    }
+
+    #game_catalog .catalog_title h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #game_catalog .catalog_wrapper {
+        padding: 20px;
+    }
+
+    #game_catalog .catalog_text {
+        text-align: center;
+    }
+
+    #game_catalog .catalog_text h4 {
+        font-size: 20px;
+    }
+
+    #game_catalog .catalog_text h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    #game_catalog .catalog_text p {
+        width: auto;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #game_catalog .catalog_text button {
+        padding: 10px 16px;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    #game_catalog .catalog_slider img{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    #store {
+        padding: 20px 0;
+    }
+
+    #store .store_title h2 {
+        width: auto;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #store .store_title h2::after {
+        width: 90px;
+        bottom: 5px;
+        right: 140px;
+    }
+
+    #store .all_product .product h3 {
+        font-size: 30px;
+    }
+
+
+    #store .all_product .product h4 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    #store .all_product .product h6 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #store .product img{
+        width: 100%;
+    }
+
+    #store .all_product .product {
+        padding: 20px 40px;
+        gap: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    #store button span {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    #store .button .next_button {
+        top: 458px;
+    }
+
+    #store .button .prev_button {
+        top: 424px;
+    }
+
+
+
+
+
+
+    #professional {
+        padding: 20px 0;
+    }
+
+    #professional .professional_title h2 {
+        width: auto;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    #professional .professional_title h2::after {
+        width: 90px;
+        bottom: 5px;
+        left: 130px;
+    }
+
+    #professional .professional_content{
+        padding: 20px;
+    }
+
+    #professional .professional_content img{
+        width: 100%;
+    }
+
+    #professional .professional_content .item_info {
+        padding: 5px;
+    }
+
+    #professional .item_info h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #professional .item_info .item_hover h3 {
+        font-size: 16px;
+    }
+
+    #professional .item_info p {
+        width: auto;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    #professional .item_info ul {
+        gap: 5px;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #professional .item_info ul li {
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    #professional .item_info button {
+        padding: 0px 5px;
+        font-size: 12px;
+        font-weight: 300;
+        border: none;
+        border-radius: 2px;
+        margin-top: 5px;
+    }
+
+
+
+
+
+    #faQ {
+        padding: 20px 0 60px 0;
+    }
+
+    #faQ .faQ_title h2 {
+        width: auto;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #faQ .faQ_title h2::after {
+        display: none;
+    }
+
+    #faQ .faQ_content {
+        margin-top: 30px;
+        padding: 0 30px;
+    }
+
+    #faQ .faQ_content .item .item_no h2 {
+        font-size: 30px;
+        padding: 0 10px;
+        letter-spacing: 0;
+        margin-right: 10px;
+    }
+
+    #faQ .faQ_content .item_text h4 {
+        font-size: 14px;
+    }
+
+    #faQ .faQ_content .item_text p {
+        width: auto;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    #faQ .faQ_content .no_02 {
+       padding: 0;
+    }
+
+    #faQ .faQ_content hr {
+        margin: 15px 0;
+    }
+
+    #faQ .faQ_content .vertical_line {
+        width: 190px;
+        top: 93px;
+        left: 296px;
+    }
+
+
+
+
+    #footer {
+        padding-top: 100px;
+    }
+
+    #footer .footer_top {
+        width: 100%;
+        padding: 10px 10px;
+        top: -30px;
+        left: 0;
+    }
+
+    #footer .footer_top .footerTop_title h2 {
+        width: auto;
+        font-size: 30px;
+    }
+
+    #footer .footer_top .subscribe_button input {
+        padding: 5px 50px 5px 10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #footer .footer_top .subscribe_button input::placeholder{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    
+    
+    #footer .footer_top .subscribe_button button {
+        padding: 5px 8px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #footer .footer_content {
+        padding: 0 30px;
+    }
+
+
+    #footer .left_text p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    #footer .left_social_icon ul {
+        gap: 12px;
+        margin-top: 16px;
+        align-items: center;
+    }
+
+    #footer .left_social_icon ul li {
+        width: 20px;
+        height: 20px;
+        line-height: 16px;
+    }
+
+    #footer .left_social_icon ul li a {
+        font-size: 12px;
+    }
+
+    #footer .footer_content .footer_center  h4 {
+        font-size: 16px;
+    }
+
+    #footer .footer_center  ul li {
+        margin-top: 6px;
+    }
+
+    #footer .footer_center  ul li a {
+        font-size: 12px;
+    }
+
+    #footer .footer_content .footer_right {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #footer .footer_content .footer_right img{
+        margin: 0 5px;
+    }
+
+    #footer .footer_content .footer_right h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+    #footer .footer_bottom {
+        padding-bottom: 10px;
+    }
+
+    #footer .footer_bottom hr {
+        margin-bottom: 10px;
+    }
+
+    #footer .footer_bottom h4 {
+        font-size: 12px;
+    }
+
+
+}
